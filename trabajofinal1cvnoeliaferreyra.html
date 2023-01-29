@@ -15,7 +15,20 @@
             heigth="150px" width="150px"/>
     
 
-            <h1>Noelia  Ferreyra </h1>
+          <div class="container text-center py-5">
+            <img src="PhotoRoom-20220530_184047.jpg" alt="foto_cv"
+            heigth="150px" width="150px"/>
+          
+            <h1 id="título" class="display-3 py-5"> Noelia  Ferreyra </h1>
+            <button id="botón" class="btn btn -danger"> Click aquí</button>
+            <script>
+                function cambiar(){ 
+                    document.getElementById("título").innerHTML = "Mi precario primer cv"
+                }
+                document.getElementById("botón").onclick = function (){
+                    cambiar();
+                }
+            </script>
             <h3>Técnica en RRHH </h3>
         </div>
     </header>
